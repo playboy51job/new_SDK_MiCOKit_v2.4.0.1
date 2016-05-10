@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2095738066</fileChecksum>
+  <configuration>
+    <name>EMW3265</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>MiCOKit-3165</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverSpi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\micokit_ext.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_rng.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\micokit_ext.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\StringUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\Update_for_OTA.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\Retarget.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_pwr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\system_stm32f4xx.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\misc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_crc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_crc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\RingBufferUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\misc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\RingBufferUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_tdes.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_rng.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\temp_hum_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\rtos.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\menu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\temp_hum_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\spi_flash_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_usart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_sdio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_md5.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\wlan_bus_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\paltform_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_flash_ramfunc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\startup_stm32f411xe_bootloader_IAR.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_sai.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_hash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\Bootloader.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_wwdg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dac.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\MiCOKit_STmems.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_tim.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_rng.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\Getline.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\Update_for_OTA.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_mcu_powersave.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_sdio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_ltdc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_des.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\mico_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_pwm.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\mico_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_can.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\dc_motor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\micokit_ext_mfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverFlash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\stm32f4xx_conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4_simd.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\platform_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MICODriverNanoSecond.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\platform_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\bits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_mcu_peripheral.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\Curve25519\curve25519-donna.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\PlatformLogging.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\hsb2rgb_led.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_md5.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\Output\MiCOKit-3165\COM.MXCHIP.SPP.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_iwdg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\rtos.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\wlan_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\paltform_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\Output\MiCOKit-3165\Bootloader.bin</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dma.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_mcu_powersave.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_wwdg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dcmi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_aes.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dma2d.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\wlan_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_syscfg.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_sai.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\ymodem.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_usart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_watchdog.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverUart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverWdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MICO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_rtos.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_security.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_wlan.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\RTOS\NoRTOS\rtos.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_STmems\MiCOKit_STmems.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\EWARM\startup_stm32f411xe_bootloader_IAR.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\paltform_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_mcu_powersave.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\platform_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_bus_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\dc_motor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\hardfault.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\CheckSumUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_tdes.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\crt0_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\Getline.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dma.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_sha1.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\wlan_bus_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\motion_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\BootloaderEntrance.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\wlan_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\spi_flash_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\hsb2rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\ymodem.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_flash_ramfunc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_hash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dma2d.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\MiCOKit_STmems.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_aes.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_pwr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_des.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\motion_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\crt0_EWARM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\CheckSumUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_rng.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\menu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\spi_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dbgmcu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_sha1.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_pwm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\BootloaderEntrance.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_can.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\wlan_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_ltdc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\platform_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\hardfault.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\micokit_ext_mfg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\Retarget.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\spi_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\StringUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_iwdg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_dcmi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-3165\obj_EWARM\stm32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-3165\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-3165\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-3165\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverAdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\Getline.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\BootloaderEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\menu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\MicoDefaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\Update_for_OTA.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\ymodem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverGpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverI2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverMFiAuth.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverPwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\wlan_platform_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\light_adc\light_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\display\VGM128064\oled.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\keypad\gpio_button\button.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\apds9930\apds9930.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\infrared_adc\infrared_reflective.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Build\Bootloader\Output\MiCOKit-3165\COM.MXCHIP.SPP.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 308</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\RTOS\NoRTOS\rtos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 257</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 291</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 307</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_STmems\MiCOKit_STmems.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 256</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 306</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\EWARM\startup_stm32f411xe_bootloader_IAR.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 297</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 314</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 302</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 294</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 311</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 312</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 301</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\paltform_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 310</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 315</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 298</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_mcu_powersave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_rng.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\platform_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_bus_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-3165\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 286</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 316 119 116 141 337 319 140 117 142 68 93 145 318 75 77 96 336 181 137 191 327 105 76 144 100 98 177 86 114 115 138 97 104 89 333 0 328 73 99 167 101 120 131 94 118 110 102 124 70 123 80 338 176 175 112 335 84 329 172 331 173 332 330 82 85 108 113 132 95 72 79 134 135 194 111 88 133 92 67 109 78 126 139 69 197 179 323 128 106 127 121 90 130 129 87 136 71 107 122 83 190 201 334 339 340 189 178 180 91 74 103 125 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\Getline.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\BootloaderEntrance.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\menu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\Update_for_OTA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\ymodem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>MiCOKit-F411A</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>MiCOKit-F411B</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>NUCLEO_F411RE</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\Getline.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\BootloaderEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\menu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\MicoDefaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\Update_for_OTA.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\ymodem.c</file>
+    </outputs>
+  </configuration>
+</project>
+
+

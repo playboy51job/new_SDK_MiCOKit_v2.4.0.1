@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3604395064</fileChecksum>
+  <configuration>
+    <name>MICOKit-F205</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>MiCOKit-3162</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</file>
+    </outputs>
+  </configuration>
+</project>
+
+

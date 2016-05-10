@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2909637854</fileChecksum>
+  <configuration>
+    <name>MiCOKit-3165</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\protocols\arrayent\ACA\lib\COM.AXALENT.ACA.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MICOAppDefine.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MICOAppEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MiCOArrayentService.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MICOConfigDelegate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Board\MiCOKit-3165\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Board\MiCOKit-3165\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MiCOArrayentService.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MICOBonjour.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MiCOArrayentServiceDef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Board\MiCOKit-3165\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\DHT11\DHT11.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\DHT11\DHT11.c</file>
+    </outputs>
+  </configuration>
+</project>
+
+

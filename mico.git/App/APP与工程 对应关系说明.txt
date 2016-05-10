@@ -1,0 +1,25 @@
+App中包含3个文件夹，分别是WeiXin，APICloud，MiCO总动员。其中：
+（1）WeiXin文件夹中是：开发微信控制MiCOKit 所需的Demo示例 页面html文件。
+（2）APICloud文件夹是：基于APICloud平台开发 iOS和Android APP 控制MiCOKit 所需的代码文件。
+（3）MiCO总动员是： MiCOKit出厂体验版的二维码,此二维码只支持Android，关注公众号在MiCOKit
+菜单中选择DemoApp，在浏览器中打开后即可下载。
+iOS的下载请直接去App Store上搜索“MiCO总动员”下载获取。
+其中（1）（2）的详细使用方法，在MiCOKit开发实例教程中提供。
+
+
+说明如下：
+APICloud：
+APICloud_moduleV1.0.1：APP控制中所需的3个模块
+APICloud_RGB_Humiture： APP控制RGB和读取温湿度传感器数值 
+对应嵌入式代码（基于MiCOKit3165平台，其他平台可以参考此代码）：
+~/Projects/STM32F4xx/micokit/Cloud_RGB_Humiture
+
+WeiXin：
+WeiXinCloud_RGB_Humiture：微信页面控制RGB和读取温湿度传感器数值 
+对应嵌入式代码（基于MiCOKit3165平台，其他平台可以参考此代码）：
+~/Projects/STM32F4xx/micokit/Cloud_RGB_Humiture
+
+MiCO总动员二维码：
+MiCO总动员二维码.jpg：扫码关注公众号实现安卓版MiCO总动员APP下载，实现开发板上所有传感器同时动作的初体验。
+对应嵌入式代码（基于MiCOKit3165平台，其他平台可以参考此代码）：
+~/Projects/STM32F4xx/micokit/MiCOKit_Enjoy

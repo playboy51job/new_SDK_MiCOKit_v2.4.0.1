@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2081815338</fileChecksum>
+  <configuration>
+    <name>MiCOKit-LPC5410x</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_rtos.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverWdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MICO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\ring_buffer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\pll_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\pinint_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\iap.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\i2c_common_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\power_control.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\ritimer_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rtc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\i2cs_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\iocon_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\i2cm_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\gpiogroup_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\ymodem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\menu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverI2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverMFiAuth.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_security.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\Getline.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverSpi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\Update_for_OTA.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\BootloaderEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_wlan.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverGpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverPwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverAdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverUart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_control.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_nano_second.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_ut.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_powersave.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sysinit_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\stopwatch_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\EWARM\startup_lpc54100_bootloader_EWARM.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\RTOS\NoRTOS\rtos.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\platform_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\ymodem.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\Update_for_OTA.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\clock_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\StringUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rtos.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\hsb2rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\gpiogroup_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\i2c_common_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\i2cs_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\iocon_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\dc_motor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\pinint_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\CheckSumUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\pll_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\power_control.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\fifo_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\dma_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\Retarget.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\fpu_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\crc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\iap.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\gpio_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_flash_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\chip_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\i2cm_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\adc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\hardfault.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\crt0_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\RingBufferUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\ritimer_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rtc_ut.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\stopwatch_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\sysinit_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rtc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_mcu_powersave.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\timer_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spim_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spis_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\wwdt_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_nano_second.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_pwm.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_rng.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\ring_buffer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\utick_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_common_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\sct_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\syscon_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\uart_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\sct_pwm_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\hsb2rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\ymodem.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\Update_for_OTA.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\hardfault.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\mico_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\startup_lpc54100_bootloader_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\StringUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\wlan_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\crt0_EWARM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\dc_motor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\menu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\CheckSumUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\RingBufferUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\BootloaderEntrance.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\Getline.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rtos.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_flash_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\adc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\clock_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\Retarget.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\chip_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\Getline.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\menu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\BootloaderEntrance.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\crc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\fpu_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\fifo_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\dma_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\gpio_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\uart_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\sct_pwm_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spim_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spis_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\syscon_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\sysinit_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\stopwatch_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\rtc_ut.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\sct_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\spi_common_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\timer_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_mcu_powersave.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_rng.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_pwm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\utick_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_nano_second.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\wwdt_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\Bootloader.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\mico_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\wlan_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\Output\MiCOKit-LPC5410x\Bootloader.bin</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_watchdog.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\Output\MiCOKit-LPC5410x\Bootloader.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Bootloader\MiCOKit-LPC5410x\obj_EWARM\platform_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MICODriverNanoSecond.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\bits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverFlash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\security\Curve25519\curve25519-donna.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rom_pwr_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\infrared_adc\infrared_reflective.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\light_adc\light_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cmsis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\display\VGM128064\oled.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\inmux_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\mrt_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\platform_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_internal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\ymodem.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_ut.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4_simd.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform_interface.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\mailbox_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\romapi_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cmsis_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\keypad\gpio_button\button.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pmu_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_lib_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\platform_peripheral.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\wlan_platform_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cpuctrl_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\lpc_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\sensor\apds9930\apds9930.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\PlatformLogging.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sys_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Bootloader\bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\PlatformInternal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_control.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\ymodem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266 234 2 332 291 20 42 245 314 334 312 336 25 318 337 260 233 310 277 30 268 286 324 303 304 32 33 292 327 258 230 240 242 339 254 246 319 340 23 0 316 302 283 288 320 37 3 21 18 269 256 264 271 259 262 237 239 251 253 293 250 235 248 4 276 27 1 34 267 311 329 265 261 270 263 313 244 26 31 35 36 232 228 331 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 289 305 298 299 285 290 306 326 231 236 275 229 281 227 301 315 243</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\menu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 306 280 34 244 312 26 295 32 343 337 311 324 261 263 232 308 296 290 227 27 318 267 320 314 310 35 335 297 294 284 282 289 305 298 299 285 243 277 342 0 1 293 329 336 265 270 313 31 36 228 331 292 321 338 322 325 323 309 328 319 339 256 326 327 281 248 275 4 18 276 30 23 2 268 334 316 286 302 283 288 291 303 304 332 20 37 33 3 25 21 42 269 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 234 254 250 246 229 301 315 231 235 236 340</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256 257 32 309 310 329 311 338 335 312 336 313 337 324 0 325 319 339 314 25 315 316 317 318 42 320 321 322 323 328 326 327 330 4 1 332 20 331 333 18 334 286 303 304 297 308 294 280 284 296 282 295 289 305 298 299 285 290 306 307 300 27 34 33 281 301 287 302 283 288 291 292 293 267 265 261 270 263 268 269 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 234 254 250 246 252 238 255 249 247 241 30 23 2 37 3 21 227 248 243 244 26 31 35 36 232 228 229 231 235 236 340</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\Getline.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 27 295 312 303 26 267 244 280 306 301 324 311 318 304 334 232 308 296 290 310 281 320 336 337 34 314 35 335 297 294 284 282 289 305 298 299 285 0 4 329 293 1 313 31 36 228 331 292 321 338 322 325 323 309 328 319 339 256 326 327 315 18 302 283 288 291 316 286 265 261 270 263 30 23 2 268 332 20 37 33 3 25 21 42 269 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 234 254 250 246 227 248 243 229 231 235 236 340</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\Update_for_OTA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 324 32 299 268 312 294 305 23 286 282 301 310 35 335 297 284 289 318 298 285 281 334 291 261 263 244 26 232 308 280 296 295 290 306 0 18 30 2 316 302 283 288 320 265 270 313 31 36 228 331 292 321 338 322 325 323 309 328 319 339 256 326 327 315 332 337 27 1 34 293 267 311 329 336 303 304 20 37 33 3 25 21 42 269 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 234 254 250 246 227 248 243 4 229 231 235 236 340</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Bootloader\BootloaderEntrance.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245 34 314 20 42 311 332 266 234 32 337 293 336 25 318 260 233 320 342 27 324 312 329 303 304 334 33 292 327 258 230 240 242 339 254 246 310 315 343 0 1 267 37 3 21 18 269 256 264 271 259 262 237 239 251 253 250 319 281 301 30 23 2 268 316 286 302 283 288 291 265 261 270 263 313 244 26 31 35 36 232 228 331 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 289 305 298 299 285 290 306 326 227 248 243 4 229 231 235 236 340</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 335 284 283 297 289 318 294 282 312 302 308 280 296 295 288 324 339 256 321 338 322 325 323 309 328 319 291 305 298 299 285 290 306 326 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312 271 239 327 262 253 311 250 256 264 259 237 251 318 339 260 258 266 230 233 240 245 242 293 324 234 254 246 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_control.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 319 256 325 335 338 309 312 324 339 321 322 323 328 318 302 283 297 308 294 280 284 296 282 295 289 291 305 298 299 285 290 306 326 344 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327 262 253 311 250 271 239 312 256 264 259 237 251 318 339 260 258 266 230 233 240 245 242 293 324 234 254 246 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245 318 266 260 233 293 234 327 258 230 240 242 324 339 254 312 246 256 264 271 259 262 237 239 251 253 311 250 269 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_nano_second.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327 262 253 311 250 271 239 312 256 264 259 237 251 318 339 260 258 266 230 233 240 245 242 293 324 234 254 246 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_ut.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 289 324 335 284 305 299 326 294 282 298 285 308 280 296 295 291 290 306 320 334 321 338 322 325 323 309 328 319 318 312 302 283 288 339 256 269 278 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258 240 339 327 230 242 318 260 266 233 245 311 312 250 256 264 271 259 262 237 239 251 253 293 324 234 254 246 326 328 335 297 321 308 338 294 322 280 325 284 323 296 309 282 295 319 289 302 283 288 291 305 298 299 285 290 306 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rng.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_powersave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 324 283 327 311 291 312 326 320 336 302 318 286 293</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sysinit_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 309 339 335 338 312 324 325 319 288 256 321 322 323 328 318 302 283 297 308 294 280 284 296 282 295 289 291 305 298 299 285 290 306 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240 339 258 324 254 327 230 242 312 246 260 266 233 245 293 234 318 256 264 271 259 262 237 239 251 253 311 250 269 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 319 256 288 325 335 338 309 312 324 339 321 322 323 328 318 302 283 297 308 294 280 284 296 282 295 289 291 305 298 299 285 290 306 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\stopwatch_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327 262 253 311 250 271 239 312 256 264 259 237 251 318 339 260 258 266 230 233 240 245 242 293 324 234 254 246 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 319 256 288 325 335 338 309 312 324 339 321 322 323 328 318 302 283 297 308 294 280 284 296 282 295 289 291 305 298 299 285 290 306 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312 250 239 324 21 271 327 291 0 32 318 37 269 262 253 231 1 314 293 320 3 18 256 264 259 237 251 339 302 283 288 337 27 34 267 336 303 304 334 332 20 33 25 42 292 260 258 266 230 233 240 245 242 234 254 246 319 30 236 4 329 311 23 2 268 316 286 265 261 270 263 313 244 310 26 31 35 36 232 228 331 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 289 305 298 299 285 290 306 326 235 340 248 229 281 227 301 315 243</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292 265 314 228 283 320 328 327 32 31 312 302 324 322 310 36 316 288 270 321 323 326 26 35 232 334 286 291 313 18 0 338 325 309 319 335 339 256 238 20 37 33 3 25 21 318 293 267 311 261 263 42 337 297 308 294 280 284 296 282 295 289 305 298 299 285 290 306 1 329 336 303 304 331 268 269 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 234 254 250 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233 234 260 293 266 245 318 327 258 230 240 242 324 339 254 312 246 256 264 271 259 262 237 239 251 253 311 250 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 306 308 291 280 295 290 269 335 297 294 284 282 289 305 298 299 285 321 338 322 325 323 309 328 319 318 312 302 283 288 324 339 256 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 326</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327 262 253 311 250 271 239 312 256 264 259 237 251 318 339 260 258 266 230 233 240 245 242 293 324 234 254 246 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 334 311 312 270 314 286 324 265 316 320 318 293 267 302 283 288 291 261 263 332 329 336 303 304</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341 32 313</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233 327 260 312 266 245 311 250 258 230 240 242 318 339 256 264 271 259 262 237 239 251 253 293 324 234 254 246 326 328 335 297 321 308 338 294 322 280 325 284 323 296 309 282 295 319 289 302 283 288 291 305 298 299 285 290 306 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308 291 296 306 280 295 290 335 297 294 284 282 289 305 298 299 285 321 338 322 325 323 309 328 319 318 312 302 283 288 324 339 256 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 332 266 234 316 288 320 324 314 20 42 245 312 268 25 318 337 260 233 231 302 283 265 270 4 23 32 33 292 327 258 230 240 242 339 254 246 241 334 286 291 261 263 0 30 2 37 3 21 18 269 256 264 271 259 262 237 239 251 253 293 250 319 1 236 252 267 311 329 336 303 304 313 27 34 244 310 26 31 35 36 232 228 331 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 289 305 298 299 285 290 306 326 235 340 248 229 281 227 301 315 243</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 310 319 312 324 31 292 314 325 335 339 236 30 316 288 320 313 228 331 338 309 256 241 2 302 283 265 270 36 321 322 323 328 326 327 23 268 334 286 291 261 263 244 26 35 232 297 308 294 280 284 296 282 295 289 318 305 298 299 285 290 306 32 231 4 337 27 1 34 293 267 311 329 336 303 304 332 20 37 33 3 25 21 42 18 269 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 234 254 250 246 229 235 340 248 252 281 227 301 315 243</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311 312 273 314 318 267 336 32 286 293 324 303 304 334 331 272 287 337 316 302 283 288 291 320 329 265 261 270 263 0 268 313</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246 312 268 240 311 336 228 258 314 32 318 267 324 31 292 327 230 242 339 254 319 293 329 303 304 334 36 331 260 266 233 245 234 1 316 286 302 283 288 291 320 310 26 35 232 0 269 256 264 271 259 262 237 239 251 253 250 287 265 261 270 263 20 37 33 3 25 21 313 42 18 337 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 289 305 298 299 285 290 306 326</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228 311 288 262 327 324 269 253 32 314 1 312 302 283 31 0 271 239 250 291 320 313 36 316 261 263 256 264 259 237 251 293 318 339 319 274 18 310 26 35 232 334 286 265 270 331 292 268 260 258 266 230 233 240 245 242 234 254 246 20 37 33 3 25 21 267 329 336 303 304 42 337 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 289 305 298 299 285 290 306 326</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\EWARM\startup_lpc54100_bootloader_EWARM.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327 262 253 311 250 271 239 312 256 264 259 237 251 318 339 260 258 266 230 233 240 245 242 293 324 234 254 246 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295 288 256 280 335 308 296 312 324 339 297 294 284 282 289 318 302 283 321 338 322 325 323 309 328 319 291 305 298 299 285 290 306 326 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 322 302 328 312 321 323 318 283 338 325 309 319 288 324 335 339 256 297 308 294 280 284 296 282 295 289 291 305 298 299 285 290 306 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 302 312 283 32 337 288 324 316 243 275 291 334 286 320 314 276 311 318 293 267 329 336 303 304 265 261 270 263 0 268 313</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259 251 318 256 264 237 293 234 271 262 239 253 324 339 254 312 246 327 260 258 266 230 233 240 245 242 311 250 326 328 335 297 321 308 338 294 322 280 325 284 323 296 309 282 295 319 289 302 283 288 291 305 298 299 285 290 306 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256 237 234 264 293 259 251 318 271 262 239 253 324 339 254 312 246 327 260 258 266 230 233 240 245 242 311 250 326 328 335 297 321 308 338 294 322 280 325 284 323 296 309 282 295 319 289 302 283 288 291 305 298 299 285 290 306 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312 318 311 256 327 234 254 339 335 305 293 324 302 283 288 291 298 299 285</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294 298 282 285 335 297 284 289 305 299 308 280 296 295 291 290 306 321 338 322 325 323 309 328 319 318 312 302 283 288 324 339 256 327 264 260 271 258 259 266 262 230 237 233 239 240 251 245 253 242 293 311 234 254 250 246 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 334 311 324 312 320 314 286 316 32 337 318 293 267 302 283 288 291 329 336 303 304 292 265 261 270 263 0 268 313</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293 260 233 234 266 245 318 327 258 230 240 242 324 339 254 312 246 256 264 271 259 262 237 239 251 253 311 250 335 297 321 308 338 294 322 280 325 284 323 296 309 282 328 295 319 289 302 283 288 291 305 298 299 285 290 306 326 269</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\RTOS\NoRTOS\rtos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312 262 324 234 286 253 327 319 0 292 271 239 334 291 261 263 42 256 264 259 237 251 316 302 283 288 320 265 270 318 18 314 268 269 260 258 266 230 233 240 245 242 293 339 328 310 267 311 329 336 303 304 331 337 32 313 335 297 321 308 338 294 322 280 325 284 323 296 309 282 295 289 305 298 299 285 290 306 254 250 246 326</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\platform_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Build\Bootloader\Output\MiCOKit-LPC5410x\Bootloader.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

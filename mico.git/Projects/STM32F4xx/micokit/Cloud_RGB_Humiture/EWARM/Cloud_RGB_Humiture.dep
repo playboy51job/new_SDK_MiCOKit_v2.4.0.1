@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3232258086</fileChecksum>
+  <configuration>
+    <name>MiCOKit-3165</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_para_storage.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_monitor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_notification.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\display\VGM128064\AsciiLib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\infrared_adc\infrared_reflective.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\keypad\gpio_button\button.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\display\VGM128064\oled.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\system_misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\light_adc\light_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\BME280\bme280_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\BME280\bme280.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\hardfault.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\DHT11\DHT11.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\micokit_ext_mfg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\EWARM\Retarget.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\EWARM\startup_stm32f411xe_IAR.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\wlan_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\mico_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\platform_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\paltform_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_mcu_powersave.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_nano_second.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_bus_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\hsb2rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\linkhash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_power_daemon.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\json_util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\infrared_reflective.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MICOBonjour.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\Cloud_RGB_Humiture.bin</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_config.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\config_server_menu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_misc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\HTTPUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_notification.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\json_tokener.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\crt0_EWARM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\SocketUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\user_downstream.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_easylink.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\RingBufferUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\wlan_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MicoFogCloudConfigServer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\hardfault.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\dc_motor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_mdns.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\arraylist.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\startup_stm32f411xe_IAR.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\spi_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\user_upstream.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\spi_flash_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_sdio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\Retarget.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_sai.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\bme280_user.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_md5.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\wlan_bus_sdio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_pwr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_wwdg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\wlan_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_ltdc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_tdes.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_watchdog.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_rng.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\hardfault.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MICOConfigDelegate.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_iwdg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\wlan_bus_sdio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_wwdg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_nano_second.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dma.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_para_storage.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_pwm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_ltdc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dma2d.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\wlan_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\infrared_reflective.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MicoFogCloudConfigServer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\user_upstream.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MICOBonjour.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MicoFogCloud.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\AsciiLib.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\StringUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\user_main.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\CheckSumUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\light_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\RingBufferUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_config.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\wlan_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\button.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\json_util.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_sha1.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\linkhash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MICOAppEntrance.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\hsb2rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\dc_motor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_misc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\SocketUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MICOAppEntrance.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\Cloud_RGB_Humiture.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\fogCloud.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_stm32f4xx.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\json_tokener.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\HTTPUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MicoFogCloud.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\printbuf.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\URLUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_mdns.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dma.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\tftp_ota.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dma2d.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_easylink_delegate.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dac.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\spi_flash_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_monitor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_factory_test.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_power_daemon.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_notification.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\config_server_menu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_flash_ramfunc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\micokit_ext.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\bme280_user.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_pwm.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dbgmcu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\user_main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_can.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\crt0_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\misc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\paltform_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\bme280.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_crc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_des.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dcmi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_aes.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_mcu_powersave.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\spi_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\micokit_ext_mfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_nano_second.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\DHT11.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\temp_hum_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_rng.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_usart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_rng.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_iwdg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_hash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_pwr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_can.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_md5.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_crc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_easylink.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_flash_ramfunc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\json_object.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\Retarget.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_sdio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_hash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\paltform_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\COM.MXCHIP.SPP.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_rng.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\config_server.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\fogCloud.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_usart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_hash_sha1.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\oled.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_des.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform_mcu_powersave.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_sai.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\oled.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_dcmi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_tdes.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_tim.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\debug.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\CheckSumUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_factory_test.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\user_downstream.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\system_easylink_delegate.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\temp_hum_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_para_storage.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\printbuf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\URLUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_monitor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\DHT11.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\arraylist.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\tftp_ota.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\json_object.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\StringUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\light_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\config_server.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\misc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\AsciiLib.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\debug.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\button.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\MICOConfigDelegate.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\micokit_ext.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\mico_system_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\stm32f4xx_cryp_aes.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\obj_EWARM\bme280.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MICOAppDefine.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MicoFogCloudDef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MICOBonjour.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\user_upstream.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\fogCloud.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MICOConfigDelegate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MicoFogCloud.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Board\MiCOKit-3165\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MICOAppEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MicoFogCloudConfigServer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\user_downstream.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\user_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Board\MiCOKit-3165\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\fogCloud.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\FogCloud\FogCloudService.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MICO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\arraylist.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Board\MiCOKit-3165\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\FogCloud\FogCloudServiceDef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\FogCloud\FogCloudUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\URLUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\config_server\config_server.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\linkhash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\CheckSumUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\config_server\config_server_menu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\mdns\mico_mdns.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_tokener.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_power_daemon.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_object.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\tftp_ota\tftp_ota.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\HTTPUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\printbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\easylink\system_easylink.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\easylink\system_easylink_delegate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\system_factory_test.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\core\mico_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\command_console\mico_cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\SocketUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\bits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\printbuf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\arraylist.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\linkhash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_tokener.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\URLUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\system\system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_mcu_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\mico_platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\mico_rtos.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocalelist.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\MICO\security\Curve25519\curve25519-donna.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\include\platform_peripheral.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverAdc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MICODriverNanoSecond.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\mico_socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverGpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\Debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\Common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_object.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverPwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverRtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverFlash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverSpi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\include\PlatformLogging.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverI2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\platform_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\CheckSumUtils.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverUart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\mico_wlan.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverWdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\RingBufferUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\stm32f4xx_conf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\mico_system.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\mico_security.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverRng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\MicoDrivers\MicoDriverMFiAuth.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_para_storage.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_monitor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_notification.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 255</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\display\VGM128064\AsciiLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\motor\dc_motor\dc_motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\infrared_adc\infrared_reflective.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\keypad\gpio_button\button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\display\VGM128064\oled.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\system_misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\light_adc\light_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\BME280\bme280_user.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\BME280\bme280.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 299</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Cortex-M4\hardfault.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\rgb_led\P9813\rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\rgb_led\P9813\hsb2rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\sensor\DHT11\DHT11.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 291</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 221</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\EWARM\Retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\EWARM\startup_stm32f411xe_IAR.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\wlan_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\mico_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\platform_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 231</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_rng.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\paltform_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_mcu_powersave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 238</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 239</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_nano_second.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\platform_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\wlan_bus_driver\wlan_bus_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Platform\MCU\STM32F4xx\peripherals\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Build\Cloud_RGB_Humiture\MiCOKit-3165\COM.MXCHIP.SPP.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MICOBonjour.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\user_upstream.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MICOConfigDelegate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MicoFogCloud.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MICOAppEntrance.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\MicoFogCloudConfigServer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\user_downstream.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\User\user_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Demos\micokit\Cloud_RGB_Humiture\AppFramework\fogCloud.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400 392 391 398 384 371 372 305 376 308 399 393 355 401 423 375 403 385 383 395 390 381 348 382 365 317 301 396 394 313 404 405 387 406 377 378 388 379 380 415 413 414 416 429 435 417 430 438 347 344 345 374 351 350 361 316 427 434 432 422 436 409 424 431 420 410 433 437 20 421 425 412 428 439 440 373 314 386 349 346 418 402 426 397 411 419 389 408 407 320 370 362 353 352 354 363 357 356 358 359 366 369 360 367 364 368 300 304 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\arraylist.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 285</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Board\MiCOKit-3165\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\RingBufferUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\URLUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\config_server\config_server.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\linkhash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\CheckSumUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\config_server\config_server_menu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\mdns\mico_mdns.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_tokener.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\mico_system_power_daemon.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_object.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 247</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\tftp_ota\tftp_ota.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\json_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\HTTPUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\json_c\printbuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\easylink\system_easylink.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\easylink\system_easylink_delegate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\system_factory_test.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\StringUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\core\mico_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\MICO\system\command_console\mico_cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\libraries\utilities\SocketUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

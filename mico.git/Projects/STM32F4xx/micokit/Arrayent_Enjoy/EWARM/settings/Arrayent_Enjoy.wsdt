@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>Arrayent_Enjoy/MiCOKit-3165</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>272</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build><TerminalIO/></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-24381-12341</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Arrayent_Enjoy</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Application</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Application/AppFramework</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Board</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Board/MiCOKit-3165</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Library</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Library/protocols</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Library/protocols/Arrayent</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Platform</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Platform/Drivers</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Platform/Drivers/MiCOKit-EXT</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Platform/Drivers/MiCOKit-EXT/sensors</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Platform/Drivers/MiCOKit-EXT/sensors/temp_hum_sensor</ExpandedNode><ExpandedNode>Arrayent_Enjoy/Platform/Drivers/MiCOKit-EXT/sensors/temp_hum_sensor/DHT11</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-14261-9020</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Demos\micokit\Arrayent_Enjoy\AppFramework\MICOAppEntrance.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>89</YPos2><SelStart2>3534</SelStart2><SelEnd2>3534</SelEnd2></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-048C6EA0><key>iaridepm.enu1</key></Toolbar-048C6EA0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>404</Bottom><Right>363</Right><x>-2</x><y>-2</y><xscreen>111</xscreen><yscreen>193</yscreen><sizeHorzCX>81259</sizeHorzCX><sizeHorzCY>281752</sizeHorzCY><sizeVertCX>267204</sizeVertCX><sizeVertCY>592701</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>236</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>238</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>347445</sizeHorzCY><sizeVertCX>81259</sizeVertCX><sizeVertCY>281752</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
